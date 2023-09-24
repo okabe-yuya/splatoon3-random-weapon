@@ -1,0 +1,63 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  background: #f1f1f1;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #666;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+button {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background: #3f7ee1;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.result_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 6px;
+}
+.result_wrapper img {
+  background: #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+}
+.result_weapon_text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 6px;
+  letter-spacing: 4px;
+}
+#result {
+  height: 156.2px;
+}
+.credit {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
