@@ -62,3 +62,19 @@ button:hover {
   margin-top: 20px;
   letter-spacing: 2px;
 }
+
+.tweet-wrapper {
+  margin-top: 1rem;
+}
+
+.release-note {
+  margin-top: 6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.release-note-content {
+  font-size: 0.7rem;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}

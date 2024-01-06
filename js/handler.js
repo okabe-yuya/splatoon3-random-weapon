@@ -96,7 +96,13 @@ const weapons = [
   { display: 'ホクサイ・ヒュー', path: 'images/ホクサイ・ヒュー.png' },
   { display: 'クーゲルシュライバー・ヒュー', path: 'images/クーゲルシュライバー・ヒュー.png' },
   { display: 'ホットブラスター', path: 'images/ホットブラスター.png' },
-  { display: 'キャンピングシェルターソレーラ', path: 'images/キャンピングシェルターソレーラ.png' }
+  { display: 'キャンピングシェルターソレーラ', path: 'images/キャンピングシェルターソレーラ.png' },
+  { display: 'フィンセント・ヒュー', path: 'images/フィンセント・ヒュー.png' },
+  { display: 'ジムワイパー・ヒュー', path: 'images/ジムワイパー・ヒュー.png' },
+  { display: 'ホットブラスターカスタム', path: 'images/ホットブラスターカスタム.png' },
+  { display: 'ボトルガイザーフォイル', path: 'images/ボトルガイザーフォイル.png' },
+  { display: 'スパイガジェットソレーラ', path: 'images/スパイガジェットソレーラ.png' },
+  { display: 'スプラマニューバーコラボ', path: 'images/スプラマニューバーコラボ.png' },
 ];
 
 const insertWeaponDom = (parentElm, weapon) => {
