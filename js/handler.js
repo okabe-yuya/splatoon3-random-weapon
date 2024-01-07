@@ -99,13 +99,13 @@ const weapons = [
   { display: 'キャンピングシェルターソレーラ', path: 'images/キャンピングシェルターソレーラ.png' },
   { display: 'R-PEN5B', path: 'images/R-PEN5B.png' },
   { display: 'S-BLAST91', path: 'images/S-BLAST91.png' },
-  { display: 'LACT-450デコ', path: 'images/LACT-450デコ' },
   { display: 'フィンセント・ヒュー', path: 'images/フィンセント・ヒュー.png' },
-  { display: 'ジムワイパー・ヒュー', path: 'images/ジムワイパー・ヒュー.png' },
-  { display: 'ホットブラスターカスタム', path: 'images/ホットブラスターカスタム.png' },
-  { display: 'ボトルガイザーフォイル', path: 'images/ボトルガイザーフォイル.png' },
-  { display: 'スパイガジェットソレーラ', path: 'images/スパイガジェットソレーラ.png' },
-  { display: 'スプラマニューバーコラボ', path: 'images/スプラマニューバーコラボ.png' },
+  { display: 'LACT-450デコ', path: 'images/LACT-450deco.png' },
+  { display: 'ジムワイパー・ヒュー', path: 'images/gymwiper_hue.png' },
+  { display: 'ホットブラスターカスタム', path: 'images/hotbruster_custom.png' },
+  { display: 'ボトルガイザーフォイル', path: 'images/bottle_guizer_foil.png' },
+  { display: 'スパイガジェットソレーラ', path: 'images/spygadget_so.png' },
+  { display: 'スプラマニューバーコラボ', path: 'images/splamanuber_colabo.png' },
 ];
 
 const insertWeaponDom = (parentElm, weapon) => {
