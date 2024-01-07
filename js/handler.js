@@ -97,6 +97,7 @@ const weapons = [
   // { display: 'クーゲルシュライバー・ヒュー', path: 'images/クーゲルシュライバー・ヒュー.png' },
   // { display: 'ホットブラスター', path: 'images/ホットブラスター.png' },
   // { display: 'キャンピングシェルターソレーラ', path: 'images/キャンピングシェルターソレーラ.png' },
+  { display: 'R-PEN5B', path: 'images/R-PEN5B.png' },
   { display: 'フィンセント・ヒュー', path: 'images/フィンセント・ヒュー.png' },
   { display: 'ジムワイパー・ヒュー', path: 'images/ジムワイパー・ヒュー.png' },
   { display: 'ホットブラスターカスタム', path: 'images/ホットブラスターカスタム.png' },
