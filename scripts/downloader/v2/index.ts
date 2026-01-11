@@ -145,7 +145,7 @@ async function imageDownloadWithParallel(weaponMetas: WeaponMeta[]): Promise<Sav
 
       // 保存した情報を記録する
       result.push({
-        weaponName: weaponMeta.name,
+        weaponName: weaponMeta.name.replace(/^\./, ''),
         imageFileSavedPath: savePath,
       });
     })
