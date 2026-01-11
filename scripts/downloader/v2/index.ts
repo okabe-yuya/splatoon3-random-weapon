@@ -172,9 +172,15 @@ function createWeaponJS(savedResult: SavedResult[]) {
 }
 
 (async () => {
+  const siteUrl = process.env.SITE_URL;
+  if (!siteUrl) {
+    throw new Error("取得先のサイト情報が環境変数に記録されていません。.envファイルを更新してください。")
+  }
+
   // HTMLを取得
   console.info("html情報の取得...")
-  const response = await fetch('https://nonbirimaru.net/splatoon3_badge/');
+
+  const response = await fetch(siteUrl);
   const html = await response.text();
   const dom = parse(html);
 
