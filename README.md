@@ -2,6 +2,10 @@
 
 スプラトゥーン3に登場する全172種類の武器からランダムに1つを選択するWebアプリケーションです。
 
+![アプリケーション画面](./doc/application.png)
+
+https://okabe-yuya.github.io/splatoon3-random-weapon/
+
 ## 機能
 
 - ボタンをクリックするだけでランダムに武器を選択
